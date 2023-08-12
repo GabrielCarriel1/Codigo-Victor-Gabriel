@@ -1,0 +1,14 @@
+body{
+   
+        /* URL de la imagen que quieres usar como fondo */
+        background-image: url('../front-end/imagenes/depositphotos_242606068-stock-photo-silhouette-football-player-holding-ball.jpg');
+      
+        /* Otras propiedades para controlar el tamaño y repetición de la imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* Si deseas un color de fondo de respaldo en caso de que la imagen no cargue */
+        background-color: #f2f2f2;
+
+}
+

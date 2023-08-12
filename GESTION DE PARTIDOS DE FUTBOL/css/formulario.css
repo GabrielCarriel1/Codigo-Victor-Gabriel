@@ -1,0 +1,61 @@
+.table {
+  border-radius: 25px;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 25px 0;
+}
+a {
+  text-align: right;
+}
+
+/* Estilo personalizado para hacer la tabla más grande */
+.table-large {
+  font-size: 108px; /* Cambia el tamaño de fuente para hacer la tabla más grande */
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos para la barra de navegación personalizada */
+.custom-nav {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-nav-link {
+  font-weight: bold;
+  color: #333;
+  border: none;
+  text-align: left;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.custom-nav-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}

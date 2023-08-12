@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Jane Doe" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Jane Doe"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Titulo -->
+    <title>Creacion de Torneo</title>
+    <!-- Favicon -->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link href="../css/style.css" rel="stylesheet" />
+    <body>
+      <header class="navbar navbar-expand-md navbar-light custom-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/LOGO-WEB-AZUL.png"
+              width="120"
+              alt="Logo de la página web"
+              class="rounded"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#sobre-mi">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#Opciones">Características</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#Contactos">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary fs-6" href="../front-end/login.html"
+                  >Iniciar Sesión</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="hero align-items-stretch">
+        <div id="topo">
+          <div class="mapa-interno">
+            <img
+              src="imagenes/WhatsApp Image 2023-08-11 at 17.09.21.jpeg"
+              alt=""
+              style="max-width: 30%"
+            />
+          </div>
+          <div class="container">
+            <div class="coluna1">
+              <h1>
+                ¡EL MÁS FÁCIL <span>CAMINO</span> PARA GESTIONAR TU TORNEO!
+              </h1>
+              <a href="formulario.html" class="botao-campeonato"
+                >Crear un Torneo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="sobre-mi seccion-clara">
+        <div class="contenedor">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="seccion-titulo">¡Todo para organizar tu torneo!</h2>
+              <p class="seccion-texto">
+                Nuestro objetivo principal es ayudar a los organizadores a
+                gestionar sus torneos, permitiéndoles publicar tablas,
+                resultados de partidos, fotos y videos para que los
+                participantes y espectadores puedan seguir e interactuar con los
+                resultados.
+              </p>
+              <div class="torneo">
+                <img
+                  src="https://copafacil.com/assets/img/mockup-celular-duvidas.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Opciones" class="experiencia seccion-oscura">
+        <div class="container text-center">
+          <div class="row">
+            <div class="columna col-12 col-md-4">
+              <div class="icone-1">
+                <img
+                  src="https://copafacil.com/assets/img/ico-topo-01.svg"
+                  alt=""
+                  style="max-width: 70px"
+                />
+              </div>
+              <p class="experiencia-titulo">Usar Gratis</p>
+              <p>
+                ¡Listo para usar! Puedes comenzar a usarlo inmediatamente, sin
+                necesidad de registrar tu información financiera.
+              </p>
+            </div>
+
+            <div class="columna col-12 col-md-4">
+              <div class="icone">
+                <img
+                  src="https://copafacil.com/assets/img/ico-topo-02.svg"
+                  alt=""
+                  style="max-width: 70px"
+                />
+              </div>
+              <p class="experiencia-titulo">Tabla de Posiciones y Rankings</p>
+              <p>
+                Tablas y rankings de jugadores automáticamente calculadas,
+                goleadores y rankings. Disponible para varias modalidades
+                deportivas.
+              </p>
+            </div>
+
+            <div class="columna col-12 col-md-4">
+              <div class="icone">
+                <img
+                  src="https://copafacil.com/assets/img/ico-topo-03.svg"
+                  alt=""
+                  style="max-width: 70px"
+                />
+              </div>
+              <p class="experiencia-titulo">Aplicación Flexible</p>
+              <p>
+                Interfaz simple y práctica para crear campeonatos con más de una
+                categoría y con diferentes modelos de fases y rondas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="Contactos" class="contacto seccion-oscura">
+        <br />
+        <br />
+        <div class="container">
+          <div
+            class="container text-center rectangulo d-flex justify-content-evenly"
+          >
+            <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo">
+                ¿Tienes alguna pregunta?
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                <h3></h3>
+                <div class="desc">
+                  ¡Hable con nuestro equipo! Responderemos tan pronto como sea
+                  posible.
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:vcelir2@unemi.edu.ec">
+                  <button type="button">
+                    Contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pie de pagina ) -->
+      <footer
+        class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+      >
+        <div
+          class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+        >
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">
+          <p>&copy; Created By Gabriel, Victor</p>
+        </div>
+      </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </head>
+</html>
